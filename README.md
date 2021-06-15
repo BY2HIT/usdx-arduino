@@ -29,5 +29,3 @@ WB2CBA和Antrak设计的单PCB、可换低通滤波器版：[https://antrak.org.
 DL2MAN设计的层叠PCB多波段版：[https://dl2man.de/](https://dl2man.de/)
 
 BG6JJI设计的多波段版（嘉立创工程）：[https://oshwhub.com/jerrych/usdx_copy_copy_copy_copy_copy_copy_copy_copy_copy](https://oshwhub.com/jerrych/usdx_copy_copy_copy_copy_copy_copy_copy_copy_copy)
-
-BG6JJI设计的单波段版（Gerber PCB、pdf原理图）：
