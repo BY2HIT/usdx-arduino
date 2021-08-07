@@ -6,7 +6,7 @@
 一篇英文介绍文章：[https://qrper.com/2020/09/an-introduction-to-the-usdx/](https://qrper.com/2020/09/an-introduction-to-the-usdx/)
 
 **主要特性：**
-- ATMega328主控，Arduino软件框架；
+- ATMega328实现界面+信号处理，Arduino软件框架；
 - 1602/0.91 inch OLED显示，编码开关、按钮开关输入;
 - 支持CW/SSB/AM等，发射功率3~5 W;
 - 接收机采用零中频/低中频架构，ATMega328内置ADC双路采样；
