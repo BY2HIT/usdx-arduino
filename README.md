@@ -13,8 +13,7 @@
 - 发射机通过PWM控制功率放大器的电源电压实现幅度调制，通过高速I2C（800 kbps）控制时钟发生器SI5351的瞬时输出频率实现相位调制。
 
 **改进目标：**
-- 进行模块化设计，MCU+IO时可作为开发板，MCU+IO+RF时作为电台；
-- 兼容Arduino UNO或Arduino Nano;
+- 进行模块化设计，Arduino UNO盾板形式，MCU+IO时可作为开发板，MCU+IO+RF时作为电台；
 - 增加磁棒天线、拉杆天线、单向按钮，实现80米测向机功能。
 - 增加CW自动发送、天线调谐器，实现80米测向信号源功能。
 
@@ -29,3 +28,8 @@ WB2CBA和Antrak设计的单PCB、可换低通滤波器版：[https://antrak.org.
 DL2MAN设计的层叠PCB多波段版：[https://dl2man.de/](https://dl2man.de/)
 
 BG6JJI设计的多波段版（嘉立创工程）：[https://oshwhub.com/jerrych/usdx_copy_copy_copy_copy_copy_copy_copy_copy_copy](https://oshwhub.com/jerrych/usdx_copy_copy_copy_copy_copy_copy_copy_copy_copy)
+
+**20210806版样机**
+
+![usdx0806a](https://user-images.githubusercontent.com/2872962/128589089-7a13d737-d840-4814-ba00-2e5d67b88791.jpg)
+![usdx0806b](https://user-images.githubusercontent.com/2872962/128589098-a06bda9b-0e54-47a8-b2ed-5ef0ab5690de.jpg)
