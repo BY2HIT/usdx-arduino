@@ -33,3 +33,12 @@ BG6JJI设计的多波段版（嘉立创工程）：[https://oshwhub.com/jerrych/
 
 ![usdx0806a](https://user-images.githubusercontent.com/2872962/128589089-7a13d737-d840-4814-ba00-2e5d67b88791.jpg)
 ![usdx0806b](https://user-images.githubusercontent.com/2872962/128589098-a06bda9b-0e54-47a8-b2ed-5ef0ab5690de.jpg)
+
+**20210806已知问题**
+1. IO板：OLED引脚顺序错误，需翻转
+2. IO板：OLED的I2C接错，应接PD2 (SDA)、PD3 (SCL)
+3. IO板：K口间距偏小
+4. RF板：BOM中R6型号错误，应为10k
+5. RF板：BOM中X1型号错误，应有源晶振
+6. RF板：Q1~Q3焊盘间距较小
+7. RF板：继电器及低通电路未验证
