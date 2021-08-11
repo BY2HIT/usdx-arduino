@@ -34,20 +34,23 @@ BG6JJI设计的多波段版（嘉立创工程）：[https://oshwhub.com/jerrych/
 ![usdx0806a](https://user-images.githubusercontent.com/2872962/128589089-7a13d737-d840-4814-ba00-2e5d67b88791.jpg)
 ![usdx0806b](https://user-images.githubusercontent.com/2872962/128589098-a06bda9b-0e54-47a8-b2ed-5ef0ab5690de.jpg)
 
-**20210806已知问题**
+
+**20210806严重问题**
 1. IO板：OLED引脚顺序错误，需翻转
 2. IO板：OLED的I2C接错，应接PD2 (SDA)、PD3 (SCL)
-3. IO板：K口间距偏小且音频驱动功率不足，更换为MIC/电键接口
-4. RF板：BOM中R6型号错误，应为10k
-5. RF板：BOM中X1型号错误，应有源晶振
-6. RF板：Q1~Q3焊盘间距较小
-7. RF板：继电器及低通电路未验证
-8. RF板：L1焊点、C21可能与Arduino板USB干涉，需调整位置
-9. IO板、RF板：排针与Arduino板未完全对齐，需调整位置
+3. RF板：BOM中R6型号错误，应为10k
+4. RF板：BOM中X1型号错误，应有源晶振
 
-**20210806计划改进项目**
+**20210806未验证项目**
+1. RF板：继电器及低通电路未验证
+
+**20210806额外改进项目**
 1. IO板：增加MIC选择跳线、电键3.5mm接口
 2. IO板、RF板：logo过大，补充板名、版本号
 3. IO板：编码器更换为带定位的型号
 4. IO板：丝印增加按钮开关功能说明
 5. IO板、RF板：钽电容更换为大容量陶瓷
+6. RF板：Q1~Q3焊盘间距较小
+7. RF板：L1焊点、C21可能与Arduino板USB干涉，需调整位置
+8. IO板、RF板：排针与Arduino板未完全对齐，需调整位置
+9. IO板：K口间距偏小且音频驱动功率不足，更换为MIC/电键接口
