@@ -43,4 +43,6 @@ BG6JJI设计的多波段版（嘉立创工程）：[https://oshwhub.com/jerrych/
 6. RF板：Q1~Q3焊盘间距较小
 7. RF板：继电器及低通电路未验证
 8. IO板：增加MIC选择跳线、电键3.5mm接口
-9. IO板、RF板：logo过大，补充板名、版本号
+9. RF板：L1焊点、C21可能与Arduino板USB干涉，需调整位置
+10. IO板、RF板：排针与Arduino板未完全对齐，需调整位置
+11. IO板、RF板：logo过大，补充板名、版本号
