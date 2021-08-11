@@ -42,5 +42,5 @@ BG6JJI设计的多波段版（嘉立创工程）：[https://oshwhub.com/jerrych/
 5. RF板：BOM中X1型号错误，应有源晶振
 6. RF板：Q1~Q3焊盘间距较小
 7. RF板：继电器及低通电路未验证
-8. IO板：增加MIC选择跳线
+8. IO板：增加MIC选择跳线、电键3.5mm接口
 9. IO板、RF板：logo过大，补充板名、版本号
