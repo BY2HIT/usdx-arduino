@@ -51,3 +51,5 @@ BG6JJI设计的多波段版（嘉立创工程）：[https://oshwhub.com/jerrych/
 7. IO板：丝印增加按钮开关功能说明
 8. IO板、RF板：logo过大，更换为小logo，补充板名、版本号
 9. IO板：编码器更换为带定位的型号
+10. RF板：SMA引脚间距偏大
+11. RF板：RF和ANT间增加电容位置，不装低通时使用
